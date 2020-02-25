@@ -1,0 +1,66 @@
+h1{
+	color: #fff;
+	font-family: Georgia;
+	font-size: 44px;
+	font-weight: 400;
+	letter-spacing: 2.64px;
+}
+
+h2{
+	color: #545454;
+	font-family: Georgia;
+	font-size: 35px;
+	font-weight: 400;
+	letter-spacing: 2.1px;
+}
+
+h3{
+	color: #545454;
+	font-family: Georgia;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+p{
+	color: #4c4c4c;
+	font-family: "Arial";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.subtitle{
+	color: #cdcdcd;
+	font-family: "Arial";
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.btn{
+	display: inline-block;
+	color: #292929;
+	font-family: Georgia;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 1.02px;
+	padding: 20px 45px;
+	border-radius: 26px;
+	border: 2px solid #f1cdb3;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}

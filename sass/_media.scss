@@ -1,0 +1,273 @@
+@media (max-width: 1200px){
+	.container{
+		max-width: 90%;
+	}
+	.first {
+		padding-bottom: 10%;
+		&__wrapper {}
+		&__text {}
+		&__img {}
+	}
+};
+
+@media (max-width: 1024px){
+	.friend {
+		&__slider {}
+		&__wrapper {}
+		&__cart {
+			&_img {}
+			&_name {}
+			&_btn {}
+		}
+		&__arrows{
+			&_item{
+				width: 150px;
+			}
+		}
+		&__bottom {
+			&_btn {}
+		}
+	}
+};
+
+@media (max-width: 830px){
+	.header {
+		&__wrapper {}
+		&__logo {
+			&_top {}
+			&_bottom {}
+		}
+		&__menu {
+			transition: .3s;
+			position: fixed;
+			top: 50%;
+			left: 500%;
+			transform: translate(-50%, -50%);
+		}
+		&__burger{
+			display: block;
+		}
+		&__list {
+			&_item {}
+		}
+	}
+	.first {
+		&__wrapper {
+			grid-template-columns: 1fr;
+		}
+		&__text {}
+		&__img {
+			img{
+				max-width: 30%;
+			}
+		}
+	}
+
+	.footer {
+		&__wrapper {}
+		&__column {
+			flex:1 1 40%;
+			margin: 0 5%;
+			&:last-child{
+				display: none;
+			};
+		}
+		&__contacts {
+			&_item {}
+		}
+		&__dog {}
+	}
+
+	.help {
+		&__wrapper {}
+		&__item {
+			flex: 0 0 25%;
+		}
+	}
+}
+
+
+@media (max-width: 700px){
+	.donat {
+	&__wrapper {
+		flex-direction: column;
+	}
+	&__image {}
+	&__info {
+		margin-left: 0;
+	}
+	&__name {
+		&_bank {}
+	}
+	&__card {
+		&_num {}
+	}
+	&__text {}
+}
+};
+
+
+@media (max-width: 600px){
+	.footer {
+	&__wrapper {
+		flex-direction: column;
+	}
+	&__column {}
+	&__contacts {
+		&_item {}
+	}
+	&__dog {}
+}
+
+.about {
+	&__wrapper {
+		flex-direction: column;
+	}
+	&__image {}
+	&__text {
+		margin-left: 0;
+	}
+	&__info {}
+}
+
+	.overlay {}
+	.header {
+		&__wrapper {}
+		&__logo {
+			&_top {}
+			&_bottom {}
+		}
+		&__menu {
+		}
+		&__list {
+			flex-direction: column;
+			&_item {
+				margin: 20px;
+			}
+		}
+		&__burger {}
+	}
+
+};
+
+
+@media (max-width: 425px){
+	.footer {
+	&__wrapper {}
+	&__column {
+		margin: 20px 5%;
+	}
+	&__contacts {
+		&_item {}
+	}
+	&__dog {}
+}
+.friend {
+	&__slider {}
+	&__wrapper {
+		margin: 30px 0;
+	}
+	&__cart {
+		&_img {}
+		&_name {}
+		&_btn {}
+	}
+	&__bottom {
+		&_btn {}
+	}
+}
+};
+
+@media (max-width: 375px){
+	.about{
+		padding: 25px 0;
+	}
+	.friend{
+		padding: 20px 0;
+	}
+	.help{
+		padding: 5px 0;
+	}
+	.donat{
+		padding: 35px 0;
+	}
+	.footer{
+		padding: 0;
+		&__column{
+			margin: 30px 5%;
+		}
+	}
+	.first {
+		&__wrapper {}
+		&__text {}
+		&__img {
+			display: none;
+		}
+	}
+
+	.friend {
+	&__slider {}
+	&__wrapper {}
+	&__cart {
+		&_img {
+			width: auto;
+			height: auto;
+		}
+		&_name {}
+		&_btn {
+			padding: 13px 12px;
+			font-size: 13px;
+		}
+	}
+	&__bottom {
+		&_btn {}
+	}
+}
+.btn {
+}
+
+};
+
+
+@media (max-width: 320px){
+	.help {
+	&__wrapper {}
+	&__item {
+		margin: 10px 30px;
+	}
+}
+.donat {
+	&__wrapper {}
+	&__image {}
+	&__info {}
+	&__name {
+		&_bank {}
+	}
+	&__card {
+		&_num {
+			font-size: 17px;
+		}
+	}
+	&__text {}
+}
+};
+
+
+@media (min-height: 1000px){
+	.first {
+		height: 90%;
+		&__wrapper {}
+		&__text {}
+		&__img {}
+	}
+};
+
+@media (max-height: 600px){
+	.first {
+		&__wrapper {}
+		&__text {
+			padding-top: 150px;
+		}
+		&__img {}
+	}
+};

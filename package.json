@@ -1,0 +1,22 @@
+{
+  "name": "italservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dima Navrotskiy",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-butternut": "^1.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-smushit": "^1.2.0"
+  },
+  "dependencies": {
+    "gulp-htmlmin-jinjia2": "^0.1.1"
+  }
+}
